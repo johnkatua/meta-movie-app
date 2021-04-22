@@ -21,7 +21,7 @@ The server-side is built using nodejs and express. I also used postgresql as the
 ## API's ##
 
 Methods |   Urls                      | Actions
--------  ----------------------------   ---------
+-------- -----------------------------  ---------
 GET     | {url}/                      | Fetch all movies from the database
 GET     | {url}/:movieId              | Fetch movie by movieId from the database
 POST    | {url}/add-movie             | Create movies and adds them to the database
